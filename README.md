@@ -23,8 +23,9 @@ cp .env.example .env
 ```
 
 Generate secret key Laravel app
-
-
+```bash
+php artisan key:generate
+```
 
 Sample Setup Variables Database
 ```bash
