@@ -17,7 +17,7 @@ return new class extends Migration
             $table->id();
             $table->string('name');
             $table->unsignedBigInteger('isbn')->nullable();
-            $table->decimal('value', 8, 2)->nullable();
+            $table->unsignedDecimal('value')->nullable();
             $table->timestamps();
         });
     }
