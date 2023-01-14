@@ -47,10 +47,7 @@ Up server
 ```bash
 php artisan serve
 ```
-go to the root of the page
-```bash
-http://127.0.0.1:8000
-```
+
 ## All users created using seeder, password is "password"!
 
 Login
